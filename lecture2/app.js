@@ -1,5 +1,7 @@
+//first node server
 const http=require('http');
 
+//reqeust contains the frontend request we recieve at the sever side
 const server=http.createServer((req,res)=>{
   console.log(req);
 });
